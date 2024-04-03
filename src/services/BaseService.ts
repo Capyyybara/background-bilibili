@@ -14,7 +14,10 @@ class BaseService extends DBUtils {
         super();
         this.tableMap = {
             user_info: "user_info",
-            history_info: "history_info"
+            history_info: "history_info",
+            album_info: "album_info",
+            music_history_info: "music_history_info",
+            music_info: "music_info"
         };
     }
 }
